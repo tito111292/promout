@@ -1,0 +1,447 @@
+*{
+	margin:0;
+	padding:0;
+	transition:all 0.5s ease-in-out;
+}
+
+header{
+	width:100%;
+	height:460px;
+	background-image:url(bg.jpg);
+}
+
+header>.center-block{
+	max-width: 960px;
+    height: 70px;
+    margin: 0 auto;
+	position: relative;
+    top: 20px;
+}
+
+header>.center-block>.label{
+	max-width: 300px;
+    height: 70px;
+}
+
+header>.center-block>.label>.icon{
+	position:relative;
+	top:6px;
+}
+
+header>.center-block>.label>.label-text{
+	width: 63%;
+    height: 42px;
+	position: relative;
+    top: -59px;
+    left: 83px;
+    margin-top: 13px;
+    font: 37px CG Omega,Arial,sans-serif;
+    text-transform: uppercase;
+    color: white;
+   
+}
+
+header>.center-block>.navbar{
+	width: 55%;
+    height: 50px;
+    position: relative;
+    top: -55px;
+    left: 435px;
+}
+
+header>.center-block>.navbar>.block-menu{
+	height:50px;
+}
+
+header>.center-block>.navbar>.block-menu>li{
+	display:inline-block;
+	list-style:none;
+}
+
+
+
+header>.center-block>.navbar>.block-menu>li>a{
+	display:block;
+	padding:10px 15px 10px 15px;
+	margin-right:-1px;
+	text-decoration:none;
+}
+
+header>.center-block>.navbar>.block-menu>li>a:hover{
+	opacity:0.6;
+}
+
+header>.center-block>.navbar>.block-menu>li>a>.text{
+	position:relative;
+	font:bold 13px  Arial;
+	color:white;
+}
+
+.fa{
+	color:white;
+	font:17px;
+	margin-right:16px;
+	cursor:pointer;
+}
+
+.fa:hover{
+	opacity:0.6;
+}
+.descript-block{
+	margin:0 auto;
+	height:250px;
+}
+.descript-block>.head-name{
+	width: 895px;
+    position: relative;
+    top: 50px;
+    left: 31px;
+    font: bold 57px Rockwell Extra Bold;
+    text-align: center;
+    color: white;
+}
+
+.descript-block>.little-txt{
+	width: 404px;
+    position: relative;
+    top: 72px;
+    left: 261px;
+    font: italic 18px BankGothic Lt BT;
+    color: white;
+}
+
+.descript-block>.btn-header{
+    padding: 14px 15px;
+    position: relative;
+    top: 129px;
+    left: 350px;
+    color: black;
+    text-decoration: none;
+    font: normal 16px BankGothic Lt BT;
+	background-color:white;
+	opacity:0.5;
+	border-radius:10px;
+	transition:all 0.5s ease-in-out;
+}
+
+.descript-block>.btn-header:hover{
+	opacity:0.8;
+	box-shadow:0 0 20px rgba(0,0,0,0.6);
+}
+
+main{
+	height:535px;
+}
+
+main>.sect-center{
+	margin:0 auto;
+	width:960px;
+	height:300px;
+}
+
+main>.sect-center>.sect-txt1{
+	position: relative;
+    top: 51px;
+    left: 161px;
+    text-transform: uppercase;
+    width: 612px;
+    font: bold 43px AIGDT,'Arial','sans-serif';
+    color: black;
+	border:1px solid black;
+	border-radius:10px;
+	padding:10px;
+}
+
+main>.sect-center>.sect-txt1-little{
+	position: relative;
+    top: 79px;
+    left: 175px;
+    width: 615px;
+    text-align: center;
+    color: rgb(180,180,180);
+    font: normal 17px Arial;
+}
+
+main>.sect-center>.menu-main{
+	position: relative;
+    top: 100px;
+    left: 6px;
+    height: 45px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+main>.sect-center>.menu-main>.ul-menu{
+	height: 45px;
+	width:600px;
+}
+
+main>.sect-center>.menu-main>.ul-menu>li{
+	display:inline-block;
+	list-style:none;
+}
+
+main>.sect-center>.menu-main>.ul-menu>li>a{
+	padding: 12px 25px;
+    background-color: white;
+	border:1px solid black;
+    text-decoration: none;
+    font: normal 11px BankGothic Lt BT,'Arial','sans-serif';
+    color: black;
+}
+
+main>.sect-center>.menu-main>.ul-menu>li>a:hover{
+	opacity:0.5;
+	box-shadow:0 0 10px rgba(0,0,0,0.6);
+}
+
+main>.sect-center>.menu-main>.ul-menu>li>.active{
+	opacity:0.5;
+	box-shadow:0 0 10px rgba(0,0,0,0.6);
+}
+
+#carousel-background{
+	height:200px;
+}
+
+#carousel-background>#visible-block{
+	width:808px;
+	height:200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#carousel-background>#visible-block>#long-block{
+	width:10000px;
+	height:200px;
+}
+
+#carousel-background>#visible-block>#long-block>.slide{
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+	cursor:pointer;
+}
+
+#carousel-background>#visible-block>#long-block>.slide:hover{
+	opacity:0.8;
+}
+
+
+
+#carousel-background>#visible-block>#long-block>li:first-child{
+	background:url(jquery_logo.jpg) no-repeat;
+	background-size:100% 103%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(2){
+	background:url(react_logo.png) no-repeat;
+	background-size:100% 103%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(3){
+	background:url(angular_logo.png) no-repeat;
+	background-size:100% 103%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(4){
+	background:url(bootstrap_logo.png) no-repeat;
+	background-size:100% 103%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(5){
+	background:url(html_logo.png) no-repeat;
+	background-size:100% 90%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(6){
+	background:url(css_logo.png) no-repeat;
+	background-size:100% 90%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(7){
+	background:url(less_logo.png) no-repeat;
+	background-size:100% 103%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(8){
+	background:url(sass_logo.png) no-repeat;
+	background-size:100% 103%;
+}
+
+#carousel-background>#visible-block>#long-block>li:nth-child(9){
+	background:url(php_logo.png) no-repeat;
+	background-size:100% 103%;
+}
+
+
+
+
+
+#carousel-background>#btn-next{
+	width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 810px;
+    right: 150px;
+    cursor: pointer;
+}
+
+#carousel-background>#btn-next:hover{
+	opacity:0.7;
+}
+
+#carousel-background>#btn-prev{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 810px;
+    left: 150px;
+    cursor: pointer;
+}
+
+#carousel-background>#btn-prev:hover{
+	opacity:0.7;
+}
+
+.arrow{
+	width:0px;
+	height:0px;
+	border:50px solid transparent;
+	border-top-color:black;
+	margin:0;
+	padding:0;
+}
+
+.arrow:before{
+	content:'';
+	width:0px;
+	height:0px;
+	border:30px solid transparent;
+	border-top-color:white;
+	display:inline-block;
+	-webkit-transform:translate(-30px,-50px);
+}
+
+.left{
+	transform:rotate(90deg) translate(0px,25px);
+	-ms-transform:rotate(90deg) translate(0px,25px);
+	-webkit-transform:rotate(90deg) translate(0px,25px);
+	-o-transform:rotate(90deg) translate(0px,25px);
+	-moz-transform:rotate(90deg) translate(0px,25px);
+}
+
+.right{
+	transform:rotate(270deg) translate(0px,25px);
+	-ms-transform:rotate(270deg) translate(0px,25px);
+	-webkit-transform:rotate(270deg) translate(0px,25px);
+	-o-transform:rotate(270deg) translate(0px,25px);
+	-moz-transform:rotate(270deg) translate(0px,25px);
+}
+
+footer{
+	height:70px;
+	background-color:black;
+}
+
+footer>ul{
+	position:relative;
+	top: 17px;
+    left: 33px;
+	width:300px;
+}
+
+footer>.img-block{
+	position: relative;
+    top: -33px;
+    left: 655px;
+    width: 61px;
+    height: 50px;
+    background: url(icon.png) no-repeat;
+}
+
+footer>.foot-text{
+	width: 15%;
+    height: 42px;
+    position: relative;
+    top: -95px;
+    left: 750px;
+    margin-top: 13px;
+    font: 42px CG Omega,Arial,sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer>.final-text{
+	position: relative;
+    bottom: 116px;
+    left: 1300px;
+    width: 256px;
+    border-radius: 10px;
+    text-decoration: underline;
+    font: normal 11px BankGothic Lt BT,'Arial','sans-serif';
+    color: red;
+}
+
+footer>ul>li{
+	display:inline-block;
+	list-style:none;
+}
+
+footer>ul>li>a{
+	display:block;
+	width:40px;
+	height:40px;
+	border:1px solid black;
+	border-radius:50%;
+	margin-right:3px;
+	background-color:white;
+}
+
+footer>ul>li>a:hover{
+	opacity:0.6;
+}
+
+footer>ul>li>a:hover .fac{
+	opacity:0.6;
+}
+.fac{
+	color:black;
+}
+
+.icon1{
+	position:relative;
+	top: 11px;
+    left: 13px;
+}
+
+.icon2{
+	position:relative;
+	top: 10px;
+    left: 15px;
+}
+
+.icon3{
+	position:relative;
+	top: 10px;
+    left: 12px;
+}
+
+.icon4{
+	position:relative;
+	top: 10px;
+    left: 12px;
+}
+
+.icon5{
+	position:relative;
+	top: 10px;
+    left: 13px;
+}
+
+.icon6{
+	position:relative;
+	top: 10px;
+    left: 11px;
+}
